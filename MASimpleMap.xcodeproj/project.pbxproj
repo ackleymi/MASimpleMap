@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DEC10B5918DE76DB00D6821B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC10B5818DE76DB00D6821B /* CoreLocation.framework */; };
+		DEC10B5F18DE7BA900D6821B /* Pin.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC10B5E18DE7BA900D6821B /* Pin.m */; };
 		DEF9A4F018DE71BE00153C20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF9A4EF18DE71BE00153C20 /* Foundation.framework */; };
 		DEF9A4F218DE71BE00153C20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF9A4F118DE71BE00153C20 /* CoreGraphics.framework */; };
 		DEF9A4F418DE71BE00153C20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF9A4F318DE71BE00153C20 /* UIKit.framework */; };
@@ -21,6 +23,8 @@
 		DEF9A51118DE71BE00153C20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF9A4F318DE71BE00153C20 /* UIKit.framework */; };
 		DEF9A51918DE71BE00153C20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEF9A51718DE71BE00153C20 /* InfoPlist.strings */; };
 		DEF9A51B18DE71BE00153C20 /* MASimpleMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF9A51A18DE71BE00153C20 /* MASimpleMapTests.m */; };
+		DEF9A52618DE743C00153C20 /* TableController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF9A52518DE743C00153C20 /* TableController.m */; };
+		DEF9A52818DE76B300153C20 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF9A52718DE76B300153C20 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DEC10B5818DE76DB00D6821B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DEC10B5D18DE7BA900D6821B /* Pin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pin.h; sourceTree = "<group>"; };
+		DEC10B5E18DE7BA900D6821B /* Pin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pin.m; sourceTree = "<group>"; };
 		DEF9A4EC18DE71BE00153C20 /* MASimpleMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MASimpleMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF9A4EF18DE71BE00153C20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DEF9A4F118DE71BE00153C20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,9 @@
 		DEF9A51618DE71BE00153C20 /* MASimpleMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MASimpleMapTests-Info.plist"; sourceTree = "<group>"; };
 		DEF9A51818DE71BE00153C20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEF9A51A18DE71BE00153C20 /* MASimpleMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASimpleMapTests.m; sourceTree = "<group>"; };
+		DEF9A52418DE743C00153C20 /* TableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableController.h; sourceTree = "<group>"; };
+		DEF9A52518DE743C00153C20 /* TableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableController.m; sourceTree = "<group>"; };
+		DEF9A52718DE76B300153C20 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC10B5918DE76DB00D6821B /* CoreLocation.framework in Frameworks */,
+				DEF9A52818DE76B300153C20 /* MapKit.framework in Frameworks */,
 				DEF9A4F218DE71BE00153C20 /* CoreGraphics.framework in Frameworks */,
 				DEF9A4F418DE71BE00153C20 /* UIKit.framework in Frameworks */,
 				DEF9A4F018DE71BE00153C20 /* Foundation.framework in Frameworks */,
@@ -101,6 +113,8 @@
 		DEF9A4EE18DE71BE00153C20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DEC10B5818DE76DB00D6821B /* CoreLocation.framework */,
+				DEF9A52718DE76B300153C20 /* MapKit.framework */,
 				DEF9A4EF18DE71BE00153C20 /* Foundation.framework */,
 				DEF9A4F118DE71BE00153C20 /* CoreGraphics.framework */,
 				DEF9A4F318DE71BE00153C20 /* UIKit.framework */,
@@ -115,8 +129,12 @@
 				DEF9A4FE18DE71BE00153C20 /* AppDelegate.h */,
 				DEF9A4FF18DE71BE00153C20 /* AppDelegate.m */,
 				DEF9A50118DE71BE00153C20 /* Main.storyboard */,
+				DEC10B5D18DE7BA900D6821B /* Pin.h */,
+				DEC10B5E18DE7BA900D6821B /* Pin.m */,
 				DEF9A50418DE71BE00153C20 /* ViewController.h */,
 				DEF9A50518DE71BE00153C20 /* ViewController.m */,
+				DEF9A52418DE743C00153C20 /* TableController.h */,
+				DEF9A52518DE743C00153C20 /* TableController.m */,
 				DEF9A50718DE71BE00153C20 /* Images.xcassets */,
 				DEF9A4F618DE71BE00153C20 /* Supporting Files */,
 			);
@@ -249,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF9A52618DE743C00153C20 /* TableController.m in Sources */,
 				DEF9A50618DE71BE00153C20 /* ViewController.m in Sources */,
 				DEF9A50018DE71BE00153C20 /* AppDelegate.m in Sources */,
+				DEC10B5F18DE7BA900D6821B /* Pin.m in Sources */,
 				DEF9A4FC18DE71BE00153C20 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +480,7 @@
 				DEF9A52018DE71BE00153C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEF9A52118DE71BE00153C20 /* Build configuration list for PBXNativeTarget "MASimpleMapTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +489,7 @@
 				DEF9A52318DE71BE00153C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
