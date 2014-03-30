@@ -11,12 +11,12 @@
 ## Usage
 Includes the following useful basic iOS7 Mapkit features
 
--Plot current location
--Zoom to current location
--Searches local area around the current location for places that match your keyword
--Plots several points with distances
--Organizes useful data from the plotted points (telephone, website, distance, address, etc.) into a table
--Highly customizable
+- Plot current location
+- Zoom to current location
+- Searches local area around the current location for places that match your keyword
+- Plots several points with distances
+- Organizes useful data from the plotted points (telephone, website, distance, address, etc.) into a table
+- Highly customizable
 
 ## License 
 
