@@ -18,7 +18,7 @@ Includes the following useful basic iOS7 Mapkit features
  -Organizes useful data from the plotted points (telephone, website, distance, address, etc.) into a table
  -Highly customizable
 
-## License
+## License 
 
     The MIT License (MIT)
 
