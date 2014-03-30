@@ -4,7 +4,7 @@
 
 ![demo](screenshots/demo.png)
 
-## Requirements
+## Requirements 
 
 `MASimpleMap ` uses ARC and requires iOS 7.0+.
 
